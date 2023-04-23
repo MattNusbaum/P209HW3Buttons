@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<h2>Three Buttons</h2>
+<label for ="Box1"></label>
+  <input type="text" id="Box1" name="Box1"><br>
+  
+<label for ="Box2"></label>
+  <input type="text" id="Box2" name="Box2"><br>
+ 
+<label for ="Box3"></label>
+  <input type="text" id="Box3" name="Box3"><br>
+
+<button onclick ="squareInput()" id = "Square">Square</button>
+  
+<button id = "Cube">Cube</button>
+  
+<button id = "To the Fourth">To The Fourth</button>
+
+
+  
+  <script src="script.js"></script>
+
+</body>
+
+</html>
